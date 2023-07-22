@@ -1,0 +1,114 @@
+#footer{
+    margin: 0;
+    background-color: #292b2c;
+}
+
+
+@media screen and (max-width: 4000px) {
+    
+    #hamburger{
+        display: none;
+    }
+    #pics-sm{
+        display: none;
+    }
+
+    #submit-sm{
+        display: none;
+    }
+
+    #footer-txt{
+        display: none;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    #h1 {
+      font-size: 40px;
+    }
+    #logo{
+        width: 30%;
+    }
+    #hamburger{
+        display: none;
+    }
+    #pics-sm{
+        display: none;
+    }
+    #submit-sm{
+        display: none;
+    }
+
+    #footer-txt{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    #header {
+        background-image: url("https://img.freepik.com/free-vector/web-developers-courses-computer-programming-web-design-script-coding-study-computer-science-student-learning-interface-structure-components_335657-2542.jpg?size=626&ext=jpg&uid=R77385274&ga=GA1.2.165408071.1661171255&semt=ais");
+        background-repeat: no-repeat;
+        max-height: 500px;
+        background-size: cover;
+       
+    }
+    #h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #logo{
+        display: none;
+    }
+    #header-p {
+        font-size: 12px;
+        font-weight: bold;
+        
+    }
+    #header-btn{
+        font-size: 16px;
+    }
+
+    #nav{
+        display: none;
+    }
+
+    #hamburger{
+        display: flex;
+        justify-content: center;
+        background-color: #292b2c;
+    }
+
+    ul{
+        color: white;
+        font-size: 14px;
+    }
+  
+    #pics{
+        display: none;
+    }
+
+    #pics-sm{
+        display: flex;
+    
+    }
+
+    #submit-sm{
+        display: flex;
+    }
+
+    #submit{
+        display: none;
+    }
+
+    #footer-txt{
+        display: block;
+    }
+
+  
+  }
+
+
+
+
+  
+
